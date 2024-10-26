@@ -32,8 +32,6 @@ public:
     void update(const std::string& id, const std::unordered_map<std::string, std::string>& fields);
     void remove(const std::string& id);
     void displayAll() const;
-
-
     void saveToFile();
     void loadFromFile();
 

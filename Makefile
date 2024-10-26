@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Iinclude -std=c++11
+CFLAGS = -Iinclude -std=c++17
 SOURCES = src/main.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = SimpleDB
